@@ -1,0 +1,29 @@
+{
+  "name": "@innovation/healthstylz-mcp",
+  "version": "1.2.0",
+  "description": "Unified Model Context Protocol (MCP) server for HealthStylz clinical wellness, dietitian nutrition archives, PubMed/NIH supplement evidence, and circadian residential curtain specs.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "healthstylz-mcp": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node index.mjs --self-test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "health",
+    "wellness",
+    "nutrition",
+    "dietitian",
+    "supplements",
+    "pubmed",
+    "ag1",
+    "curtain-guides",
+    "herb-guides",
+    "loose-leaf-tea"
+  ],
+  "license": "MIT"
+}
