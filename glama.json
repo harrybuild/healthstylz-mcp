@@ -1,0 +1,12 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "mingcomco"
+  ],
+  "name": "healthstylz-mcp",
+  "description": "Unified MCP server exposing verified dietitian nutrition archives, PubMed/NIH supplement evidence, AG1 cost-nutrient calculator, and circadian wellness curtain specs.",
+  "endpoints": [
+    "https://healthstylz.com/.well-known/mcp.json",
+    "https://healthstylz.com/api/knowledge/mcp"
+  ]
+}
