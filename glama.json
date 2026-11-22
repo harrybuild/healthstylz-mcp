@@ -1,0 +1,15 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "mingcomco",
+    "harrybuild"
+  ],
+  "name": "healthstylz-mcp",
+  "description": "Free zero-auth MCP server exposing verified dietitian nutrition archives, PubMed/NIH supplement evidence, 13 clinical and sports calculators, AG1 cost-nutrient overlap, and circadian wellness specs.",
+  "homepage": "https://healthstylz.com/mcp",
+  "endpoints": [
+    "https://healthstylz.com/api/knowledge/mcp",
+    "https://healthstylz.com/.well-known/mcp/server-card.json",
+    "https://healthstylz.com/.well-known/mcp.json"
+  ]
+}

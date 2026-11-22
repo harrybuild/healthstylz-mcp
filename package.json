@@ -1,0 +1,32 @@
+{
+  "name": "@innovation/healthstylz-mcp",
+  "version": "1.4.0",
+  "description": "Unified Model Context Protocol (MCP) server for HealthStylz clinical nutrition, metabolic fitness, circadian environment, dietitian archives, PubMed/NIH supplement evidence, and 13 evidence-based calculators.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "healthstylz-mcp": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node index.mjs --self-test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "health",
+    "wellness",
+    "nutrition",
+    "calculators",
+    "tdee",
+    "bmr",
+    "vo2max",
+    "dietitian",
+    "supplements",
+    "pubmed",
+    "ag1",
+    "curtain-guides",
+    "herb-guides"
+  ],
+  "license": "MIT"
+}

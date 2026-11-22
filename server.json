@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.harrybuild/healthstylz-mcp",
+  "title": "HealthStylz Clinical Nutrition, Calculators & Circadian Environment MCP",
+  "description": "Free zero-auth nutrition, NIH supplement RCTs, 13 sports calculators, and sleep wellness MCP.",
+  "version": "1.4.0",
+  "websiteUrl": "https://healthstylz.com/mcp",
+  "repository": {
+    "url": "https://github.com/harrybuild/healthstylz-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://healthstylz.com/api/knowledge/mcp"
+    }
+  ]
+}
